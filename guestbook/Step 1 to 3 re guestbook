@@ -1,0 +1,58 @@
+
+Step 1 of 3: Copy the form code into your webpage
+(HINT: use 'copy and paste' to copy the following to your clipboard) 
+
+
+
+<!-- ************************ BEGIN GUESTBOOK ********************* -->
+
+<a name="guestbook"></a>
+<form method=POST action="http://resources.rootsweb.com/~guestbook/cgi-bin/public_guestbook.cgi?gb=5093&action=submit">
+<center>
+    <h2>Sign Our Guestbook</h2>
+    <a href="http://resources.rootsweb.com/~guestbook/cgi-bin/public_guestbook.cgi?gb=5093&action=view">
+    <img src="view.gif" border=0></a>
+</center>
+<p>
+<table border=0>
+    <tr><td>Name: <INPUT TYPE=text name="name" size=28></td></tr>
+    <tr><td>Email: <INPUT TYPE=text name="email" size=28><P>
+    <tr><td colspan=2> </td></tr>
+    <tr><td>Announcement!: <INPUT TYPE=text name="personal1" size=28></td></tr>
+    <tr><td>Comments: <INPUT TYPE=text name="personal2" size=28></td></tr>
+    <input type=HIDDEN name="personal3" value="">
+</table>
+    Comments:<BR>
+    <TEXTAREA COLS=60 ROWS=7 name="comment" wrap="virtual"></TEXTAREA>
+</center>
+<P>
+<CENTER>
+   <table border=0><tr>
+      <td valign=top><input type="image" src="sign.gif" border=0 ALT="Sign the Guestbook"></td>
+      <td valign=top><input type=reset value=" Clear "></td>
+   </tr></table>
+</CENTER>
+</form>
+<p><hr><p>
+<center><a href="http://resources.rootsweb.com/~guestbook/"><img src="gbbutton.gif" border=0></a></center><p>
+
+<!-- ************************ END GUESTBOOK ********************* -->
+
+
+
+
+Step 2 of 3: Get the graphics
+(HINT: right-click on the image and select 'save as' to save to your hard drive)
+(OR: click on the hotlinked graphic name to view it, then click on 'File' then 'save as' to save to your hard drive)
+(IMPORTANT: upload these graphics to the same directory as the webpage which will contain the form) 
+
+sign.gif	   
+	view.gif	   
+	gbbutton.gif
+
+
+
+Step 3 of 3: Upload the webpage and the graphics
+IMPORTANT: upload these graphics to the same directory as the webpage which will contain the form
+
+
